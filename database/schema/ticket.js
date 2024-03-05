@@ -9,6 +9,7 @@ module.exports = mongoose.model(
 			id: { type: String },
 			username: { type: String },
 			joinedAt: { type: Number, default: -1 },
+			tag: { type: String, default: '' },
 		},
 	}),
 	'AerithBot',
