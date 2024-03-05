@@ -12,5 +12,5 @@ module.exports = mongoose.model(
 			tag: { type: String, default: '' },
 		},
 	}),
-	'AerithBot',
+	'tickets',
 );
