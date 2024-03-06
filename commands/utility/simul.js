@@ -50,8 +50,6 @@ module.exports = {
 			channel.send('Bienvenue sur ' + interaction.member.guild.name + ' ' + interaction.member.nickname);
 		}
 
-		// send pm to receptionists group
-
 		await interaction.reply(`This command was run by ${interaction.user.username}, who joined on ${interaction.member.joinedAt}.`);
 	},
 };
