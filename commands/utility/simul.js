@@ -1,4 +1,4 @@
-const { TextChannel, PermissionsBitField, ChannelType, SlashCommandBuilder } = require('discord.js');
+const { PermissionsBitField, ChannelType, SlashCommandBuilder } = require('discord.js');
 const { createTicket } = require('../../database/queries/ticket');
 
 module.exports = {
